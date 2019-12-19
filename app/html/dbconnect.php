@@ -1,10 +1,9 @@
 <?php
 
-$db_host = "mysql";
-$db_name = "db";
-$db_user = "root";
-$db_pass = "pass";
-
+$db_host = "rds.ci.internal";
+$db_name = "webapp";
+$db_user = "admin";
+$db_pass = "Password01";
 
 $conn = new mysqli($db_host, $db_user, $db_pass, $db_name);
 
